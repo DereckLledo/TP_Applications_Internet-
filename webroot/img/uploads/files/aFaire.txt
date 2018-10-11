@@ -1,0 +1,7 @@
+1 - ADD INTERNERSHIP_PLACES
+	Impossible d'ajouter une place par le site web, on doit modifier le ID pour qu'il soit auto-increment. Erreur avec les foreign keys.
+
+2 - Modifier mon compte (Coordinator)
+	On ne peut pas modifier le compte coordinator pour l'instant on doit créer la fonction
+
+

@@ -1,0 +1,26 @@
+
+You could use only one model (User) and have a field called type whose values can be admin and employe.
+This way you will not have the same fields in more tables, you will be able to have only one login form, and after the user has logged in, you can redirect the user to the right page.
+In the Auth component, you will always know what type of user the current logged person is, so you can use this in other controllers.
+In AppController, you can have
+
+
+public $components = array(
+    'Auth' => array(
+        'loginAction' => array(
+            'controller' => 'Users',
+            'action' => 'login'
+         ),
+        'loginRedirect' => array(
+            'controller' => 'Users',
+            'action' => 'dashboard'
+        ),
+        'logoutRedirect' => array(
+            'controller' => 'pages',
+            'action' => 'display',
+            'home'
+        ),
+        'authorize' => array('Controller')
+    )
+);
+The UsersController - dashboard method, will be called after the user has just logged in, so here you can get the user type and redirect to the correct page.

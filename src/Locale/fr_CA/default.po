@@ -1,0 +1,551 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-09 22:10+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Last-Translator: \n"
+"Language: fr_CA\n"
+
+#: Controller/FilesController.php:70
+#: Controller/HomeController.php:32
+msgid "File has been uploaded and inserted successfully."
+msgstr "Le fichier a été sauvegarder."
+
+#: Controller/FilesController.php:72;75
+#: Controller/HomeController.php:34;37
+msgid "Unable to upload file, please try again."
+msgstr "Impossible de télécharger le fichier, veuillez réessayer."
+
+#: Controller/FilesController.php:78
+#: Controller/HomeController.php:40
+msgid "Please choose a file to upload."
+msgstr "Veuillez choisir un fichier à télécharger."
+
+#: Controller/FilesController.php:103
+msgid "The file has been saved."
+msgstr "Le fichier a été enregistré."
+
+#: Controller/FilesController.php:107
+msgid "The file could not be saved. Please, try again."
+msgstr "Le fichier n'a pas pu être enregistré. Veuillez réessayer."
+
+#: Controller/FilesController.php:123
+msgid "The file has been deleted."
+msgstr "Le fichier a été supprimé."
+
+#: Controller/FilesController.php:125
+msgid "The file could not be deleted. Please, try again."
+msgstr "Le fichier n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Controller/ProprietesController.php:66;96
+msgid "The propriete has been saved."
+msgstr "La propriéte a été sauvegardée."
+
+#: Controller/ProprietesController.php:70;100
+msgid "The propriete could not be saved. Please, try again."
+msgstr "La propriété n'a pas pu être sauvée. Veuillez réessayer."
+
+#: Controller/ProprietesController.php:125
+msgid "The propriete has been deleted."
+msgstr "La propriete a été supprimée."
+
+#: Controller/ProprietesController.php:127
+msgid "The propriete could not be deleted. Please, try again."
+msgstr "La propriété n'a pas pu être supprimée. Veuillez réessayer."
+
+#: Controller/TagsController.php:55;80
+msgid "The tag has been saved."
+msgstr "La balise a été enregistrée."
+
+#: Controller/TagsController.php:59;84
+msgid "The tag could not be saved. Please, try again."
+msgstr "La balise n'a pas pu être enregistrée. Veuillez réessayer."
+
+#: Controller/TagsController.php:102
+msgid "The tag has been deleted."
+msgstr "La balise a été supprimée."
+
+#: Controller/TagsController.php:104
+msgid "The tag could not be deleted. Please, try again."
+msgstr "La balise n'a pas pu être supprimée. Veuillez réessayer."
+
+#: Controller/UsersController.php:69;92
+msgid "The user has been saved."
+msgstr "L'utilisateur a été enregistré."
+
+#: Controller/UsersController.php:73;96
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas pu être enregistré. Veuillez réessayer."
+
+#: Controller/UsersController.php:112
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+#: Controller/UsersController.php:114
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Controller/VendeursController.php:59;91
+msgid "The vendeur has been saved."
+msgstr "Le vendeur a été enregistré."
+
+#: Controller/VendeursController.php:65;95
+msgid "The vendeur could not be saved. Please, try again."
+msgstr "Le vendeur n'a pas pu être enregistré. Veuillez réessayer."
+
+#: Controller/VendeursController.php:112
+msgid "The vendeur has been deleted."
+msgstr "Le vendeur a été supprimé."
+
+#: Controller/VendeursController.php:114
+msgid "The vendeur could not be deleted. Please, try again."
+msgstr "Le vendeur n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Template/Files/add.ctp:7
+#: Template/Home/index.ctp:7
+msgid "Upload File"
+msgstr "Téléverser un fichier"
+
+#: Template/Files/edit.ctp:9
+#: Template/Files/index.ctp:9;24
+#: Template/Files/view.ctp:9
+#: Template/Proprietes/add.ctp:9
+#: Template/Proprietes/edit.ctp:9
+#: Template/Proprietes/index.ctp:9;24
+#: Template/Proprietes/view.ctp:10
+#: Template/Tags/add.ctp:9
+#: Template/Tags/edit.ctp:9
+#: Template/Tags/index.ctp:9;24
+#: Template/Tags/view.ctp:9;52
+#: Template/Users/add.ctp:9
+#: Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9;23
+#: Template/Users/view.ctp:10
+#: Template/Vendeurs/add.ctp:9
+#: Template/Vendeurs/edit.ctp:9
+#: Template/Vendeurs/index.ctp:9;32
+#: Template/Vendeurs/view.ctp:9;78
+msgid "Actions"
+msgstr "Actions"
+
+#: Template/Files/edit.ctp:11
+#: Template/Files/index.ctp:39
+#: Template/Proprietes/edit.ctp:11
+#: Template/Proprietes/index.ctp:37
+#: Template/Tags/edit.ctp:11
+#: Template/Tags/index.ctp:37
+#: Template/Tags/view.ctp:68
+#: Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:37
+#: Template/Vendeurs/edit.ctp:11
+#: Template/Vendeurs/index.ctp:51
+#: Template/Vendeurs/view.ctp:94
+msgid "Delete"
+msgstr "Effacer"
+
+#: Template/Files/edit.ctp:13
+#: Template/Files/index.ctp:39
+#: Template/Files/view.ctp:11
+#: Template/Proprietes/edit.ctp:13
+#: Template/Proprietes/index.ctp:37
+#: Template/Proprietes/view.ctp:12
+#: Template/Tags/edit.ctp:13
+#: Template/Tags/index.ctp:37
+#: Template/Tags/view.ctp:11;68
+#: Template/Users/edit.ctp:13
+#: Template/Users/index.ctp:37
+#: Template/Users/view.ctp:12
+#: Template/Vendeurs/edit.ctp:13
+#: Template/Vendeurs/index.ctp:51
+#: Template/Vendeurs/view.ctp:11;94
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Êtes-vous sûr de vouloir supprimer # {0}?"
+
+#: Template/Files/edit.ctp:16
+#: Template/Files/view.ctp:12
+msgid "List Files"
+msgstr "Liste des fichiers"
+
+#: Template/Files/edit.ctp:22
+#: Template/Files/view.ctp:10
+msgid "Edit File"
+msgstr "Editer le fichier"
+
+#: Template/Files/edit.ctp:29
+#: Template/Proprietes/add.ctp:28
+#: Template/Proprietes/edit.ctp:34
+#: Template/Tags/add.ctp:24
+#: Template/Tags/edit.ctp:30
+#: Template/Users/add.ctp:24
+#: Template/Users/edit.ctp:30
+#: Template/Vendeurs/add.ctp:28
+#: Template/Vendeurs/edit.ctp:37
+msgid "Submit"
+msgstr "Soumettre"
+
+#: Template/Files/index.ctp:10
+#: Template/Files/view.ctp:13
+msgid "New File"
+msgstr "Nouveau fichier"
+
+#: Template/Files/index.ctp:14
+msgid "Files"
+msgstr "Dossiers"
+
+#: Template/Files/index.ctp:37
+#: Template/Proprietes/index.ctp:35
+#: Template/Tags/index.ctp:35
+#: Template/Tags/view.ctp:66
+#: Template/Users/index.ctp:35
+#: Template/Vendeurs/index.ctp:49
+#: Template/Vendeurs/view.ctp:92
+msgid "View"
+msgstr "Vue"
+
+#: Template/Files/index.ctp:38
+#: Template/Proprietes/index.ctp:36
+#: Template/Tags/index.ctp:36
+#: Template/Tags/view.ctp:67
+#: Template/Users/index.ctp:36
+#: Template/Vendeurs/index.ctp:50
+#: Template/Vendeurs/view.ctp:93
+msgid "Edit"
+msgstr "Modifier"
+
+#: Template/Files/index.ctp:47
+#: Template/Proprietes/index.ctp:45
+#: Template/Tags/index.ctp:45
+#: Template/Users/index.ctp:45
+#: Template/Vendeurs/index.ctp:59
+msgid "first"
+msgstr "premier"
+
+#: Template/Files/index.ctp:48
+#: Template/Proprietes/index.ctp:46
+#: Template/Tags/index.ctp:46
+#: Template/Users/index.ctp:46
+#: Template/Vendeurs/index.ctp:60
+msgid "previous"
+msgstr "précédent"
+
+#: Template/Files/index.ctp:50
+#: Template/Proprietes/index.ctp:48
+#: Template/Tags/index.ctp:48
+#: Template/Users/index.ctp:48
+#: Template/Vendeurs/index.ctp:62
+msgid "next"
+msgstr "prochain"
+
+#: Template/Files/index.ctp:51
+#: Template/Proprietes/index.ctp:49
+#: Template/Tags/index.ctp:49
+#: Template/Users/index.ctp:49
+#: Template/Vendeurs/index.ctp:63
+msgid "last"
+msgstr "dernier"
+
+#: Template/Files/index.ctp:53
+#: Template/Proprietes/index.ctp:51
+#: Template/Tags/index.ctp:51
+#: Template/Users/index.ctp:51
+#: Template/Vendeurs/index.ctp:65
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} sur {{pages}}, affichant le {{current}} enregistrement (s) sur le {{count}} total"
+
+#: Template/Files/view.ctp:11
+msgid "Delete File"
+msgstr "Supprimer le fichier"
+
+#: Template/Files/view.ctp:20
+#: Template/Proprietes/view.ctp:75
+msgid "Name"
+msgstr "Nom"
+
+#: Template/Files/view.ctp:24
+#: Template/Proprietes/view.ctp:76
+msgid "Path"
+msgstr "Chemin"
+
+#: Template/Files/view.ctp:28
+#: Template/Proprietes/view.ctp:52;74
+#: Template/Tags/view.ctp:26;43
+#: Template/Vendeurs/view.ctp:48;69
+msgid "Id"
+msgstr "Id"
+
+#: Template/Files/view.ctp:32
+#: Template/Proprietes/view.ctp:35;54;77
+#: Template/Tags/view.ctp:30;49
+#: Template/Users/view.ctp:30
+#: Template/Vendeurs/view.ctp:56;75
+msgid "Created"
+msgstr "Créé"
+
+#: Template/Files/view.ctp:36
+#: Template/Proprietes/view.ctp:39;55;78
+#: Template/Tags/view.ctp:34;50
+#: Template/Users/view.ctp:34
+#: Template/Vendeurs/view.ctp:60;76
+msgid "Modified"
+msgstr "Modifié"
+
+#: Template/Files/view.ctp:40
+msgid "Status"
+msgstr "Statut"
+
+#: Template/Files/view.ctp:41
+msgid "Yes"
+msgstr "Oui"
+
+#: Template/Files/view.ctp:41
+msgid "No"
+msgstr "Non"
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr "Erreur"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Arrière"
+
+#: Template/Proprietes/add.ctp:10
+#: Template/Proprietes/edit.ctp:16
+#: Template/Proprietes/view.ctp:13
+#: Template/Tags/add.ctp:11
+#: Template/Tags/edit.ctp:17
+#: Template/Tags/index.ctp:11
+#: Template/Tags/view.ctp:14
+#: Template/Vendeurs/add.ctp:11
+#: Template/Vendeurs/edit.ctp:19
+#: Template/Vendeurs/index.ctp:13
+#: Template/Vendeurs/view.ctp:16
+msgid "List Proprietes"
+msgstr "Liste Propriétés"
+
+#: Template/Proprietes/add.ctp:11
+#: Template/Proprietes/edit.ctp:17
+#: Template/Proprietes/index.ctp:11
+#: Template/Proprietes/view.ctp:15
+#: Template/Vendeurs/add.ctp:10
+#: Template/Vendeurs/edit.ctp:16
+#: Template/Vendeurs/view.ctp:12
+msgid "List Vendeurs"
+msgstr "Liste Vendeurs"
+
+#: Template/Proprietes/add.ctp:12
+#: Template/Proprietes/edit.ctp:18
+#: Template/Proprietes/index.ctp:12
+#: Template/Proprietes/view.ctp:16
+#: Template/Vendeurs/index.ctp:10
+#: Template/Vendeurs/view.ctp:13
+msgid "New Vendeur"
+msgstr "Nouveau Vendeur"
+
+#: Template/Proprietes/add.ctp:18
+msgid "Add Propriete"
+msgstr "Ajouter une propriété"
+
+#: Template/Proprietes/edit.ctp:24
+#: Template/Proprietes/view.ctp:11
+msgid "Edit Propriete"
+msgstr "Modifier la propriété"
+
+#: Template/Proprietes/index.ctp:10
+#: Template/Proprietes/view.ctp:14
+#: Template/Tags/add.ctp:12
+#: Template/Tags/edit.ctp:18
+#: Template/Tags/index.ctp:12
+#: Template/Tags/view.ctp:15
+#: Template/Vendeurs/add.ctp:12
+#: Template/Vendeurs/edit.ctp:20
+#: Template/Vendeurs/index.ctp:14
+#: Template/Vendeurs/view.ctp:17
+msgid "New Propriete"
+msgstr "Nouvelle propriété"
+
+#: Template/Proprietes/index.ctp:16
+msgid "Proprietes"
+msgstr "Propriétés"
+
+#: Template/Proprietes/view.ctp:12
+msgid "Delete Propriete"
+msgstr "Supprimer la propriété"
+
+#: Template/Proprietes/view.ctp:23
+msgid "Vendeur"
+msgstr "Vendeur"
+
+#: Template/Proprietes/view.ctp:27
+#: Template/Tags/view.ctp:45
+#: Template/Vendeurs/view.ctp:71
+msgid "Adresse"
+msgstr "Adresse"
+
+#: Template/Proprietes/view.ctp:31
+#: Template/Tags/view.ctp:46
+#: Template/Vendeurs/view.ctp:72
+msgid "Prix"
+msgstr "Prix"
+
+#: Template/Proprietes/view.ctp:44
+#: Template/Tags/view.ctp:47
+#: Template/Vendeurs/view.ctp:73
+msgid "Description"
+msgstr "Description"
+
+#: Template/Proprietes/view.ctp:48
+msgid "Related Tags"
+msgstr "Tags associés"
+
+#: Template/Proprietes/view.ctp:53
+#: Template/Tags/view.ctp:22
+msgid "Title"
+msgstr "Titre"
+
+#: Template/Proprietes/view.ctp:70
+msgid "Related Files"
+msgstr "Fichiers connexes"
+
+#: Template/Tags/add.ctp:10
+#: Template/Tags/edit.ctp:16
+#: Template/Tags/view.ctp:12
+msgid "List Tags"
+msgstr "Liste des étiquettes"
+
+#: Template/Tags/add.ctp:18
+msgid "Add Tag"
+msgstr "Ajouter une étiquette"
+
+#: Template/Tags/edit.ctp:24
+#: Template/Tags/view.ctp:10
+msgid "Edit Tag"
+msgstr "Modifier étiquette"
+
+#: Template/Tags/index.ctp:10
+#: Template/Tags/view.ctp:13
+msgid "New Tag"
+msgstr "Nouvelle étiquette"
+
+#: Template/Tags/index.ctp:16
+msgid "Tags"
+msgstr "Étiquette"
+
+#: Template/Tags/view.ctp:11
+msgid "Delete Tag"
+msgstr "Supprimer l'étiquette"
+
+#: Template/Tags/view.ctp:39
+#: Template/Vendeurs/view.ctp:65
+msgid "Related Proprietes"
+msgstr "Propriétés connexes"
+
+#: Template/Tags/view.ctp:44
+#: Template/Vendeurs/view.ctp:70
+msgid "Vendeur Id"
+msgstr "Vendeur Id"
+
+#: Template/Tags/view.ctp:48
+#: Template/Vendeurs/view.ctp:74
+msgid "Image"
+msgstr "Image"
+
+#: Template/Tags/view.ctp:51
+#: Template/Vendeurs/view.ctp:52;77
+msgid "Efface"
+msgstr "Efface"
+
+#: Template/Users/add.ctp:10
+#: Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:13
+#: Template/Vendeurs/edit.ctp:17
+#: Template/Vendeurs/index.ctp:11
+#: Template/Vendeurs/view.ctp:14
+msgid "List Users"
+msgstr "Liste des utilisateurs"
+
+#: Template/Users/add.ctp:16
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: Template/Users/edit.ctp:22
+#: Template/Users/view.ctp:11
+msgid "Edit User"
+msgstr "Modifier l'utilisateur"
+
+#: Template/Users/index.ctp:10
+#: Template/Users/view.ctp:14
+#: Template/Vendeurs/edit.ctp:18
+#: Template/Vendeurs/index.ctp:12
+#: Template/Vendeurs/view.ctp:15
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: Template/Users/index.ctp:14
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: Template/Users/view.ctp:12
+msgid "Delete User"
+msgstr "Supprimer l'utilisateur"
+
+#: Template/Users/view.ctp:21
+#: Template/Vendeurs/view.ctp:40
+msgid "Email"
+msgstr "Courriel"
+
+#: Template/Users/view.ctp:25
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: Template/Users/view.ctp:41
+msgid "Type"
+msgstr "Type"
+
+#: Template/Vendeurs/add.ctp:18
+msgid "Add Vendeur"
+msgstr "Ajouter un vendeur"
+
+#: Template/Vendeurs/edit.ctp:26
+#: Template/Vendeurs/view.ctp:10
+msgid "Edit Vendeur"
+msgstr "Modifier le vendeur"
+
+#: Template/Vendeurs/index.ctp:18
+msgid "Vendeurs"
+msgstr "Vendeurs"
+
+#: Template/Vendeurs/view.ctp:11
+msgid "Delete Vendeur"
+msgstr "Supprimer le vendeur"
+
+#: Template/Vendeurs/view.ctp:24
+msgid "User"
+msgstr "Utilisateur"
+
+#: Template/Vendeurs/view.ctp:28
+msgid "Nom"
+msgstr "Nom"
+
+#: Template/Vendeurs/view.ctp:32
+msgid "Prenom"
+msgstr "Prénom"
+
+#: Template/Vendeurs/view.ctp:36
+msgid "Phone"
+msgstr "Téléphone"
+
+#: Template/Vendeurs/view.ctp:44
+msgid "Slug"
+msgstr "Slug"
+
